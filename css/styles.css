@@ -1,0 +1,11 @@
+/* set styles for html and body. this should cover entire document across all browsers */
+html, body {
+  background: #eee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* set styles for page title */
+.page_title {
+  color: #4bb5d5;
+  text-align: center;
+}
