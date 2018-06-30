@@ -2,6 +2,14 @@
 html, body {
   background: #eee;
   font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+/* set box sizing options. this allows other box sizing if needed */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 /* set styles for page title */
