@@ -16,4 +16,43 @@ html, body {
 .page_title {
   color: #4bb5d5;
   text-align: center;
+  font-weight: bold;
+}
+
+/* set styles for container div. width must be set for horizontal centering with text align */
+.container,
+.radio_buttons {
+  float: left;
+  width: 40%;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
+/* set styles for rad selects div */
+.radio_buttons {
+  float: right;
+}
+
+/* set styles for input inside container div */
+.div_input {
+}
+
+/* set styles for both block level buttons */
+.block_button1,
+.block_button2 {
+  display: block;
+}
+
+/* set styles for block button outside the div */
+.block_button2 {
+  margin-top: 5px;
+}
+
+/* set styles for radio buttons, give them their own line */
+#r1,
+#r2,
+#r3,
+#r4 {
+  display: block;
 }

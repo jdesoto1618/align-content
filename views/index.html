@@ -13,7 +13,25 @@
     <title>Content Alignment</title>
   </head>
   <body>
+    <!-- page title -->
     <h2 class="page_title">Ways to Align Items</h2>
+    <!-- container div -->
+		<div id='cont' class='container'>
+        <!-- buttons, inputs get centered on a div with a width, using text align center css -->
+		    <label for='div_input'>Input in div</label>
+		    <input class='div_input' name='div_input'>
+		    <button id='block1' class='block_button1'>Click to Center(in div)</button>
+		</div> <!-- closes container div -->
+    <div id='rad_selects' class="radio_buttons">
+      <input type="radio" name="" value="Radio1" id='r1'>Radio 1
+      <input type="radio" name="" value="Radio2" id='r2'>Radio 2
+      <input type="radio" name="" value="Radio3" id='r3'>Radio 3
+      <input type="radio" name="" value="Radio4" id='r4'>Radio 4
+    </div><!-- closes rad selects div -->
+    <!-- line breaks to separate the button from divs -->
+    <br><br><br>
+    <!-- block level button, outside of any div -->
+		<button id='block2' class='block_button2'>Block button out of div</button>
     <!-- include main js file script -->
     <script src="../js/main.js"></script>
   </body>
